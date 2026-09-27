@@ -189,7 +189,7 @@ jupyter notebook notebooks/BaselineCode.ipynb
 
 **Run Improved MMU-RAG System:**
 ```bash
-jupyter notebook notebooks/FinalcodeAIT626project.ipynb
+jupyter notebook notebooks/multihop_rag.ipynb
 # Cell → Run All
 # Output: results/mmu_rag_results.jsonl, results/mmu_rag_summary.csv
 ```
@@ -197,14 +197,14 @@ jupyter notebook notebooks/FinalcodeAIT626project.ipynb
 ### Option 2: Run as Python Script
 
 ```bash
-python src/finalcodeait626project.py
+python src/multihop_rag.py
 # Output: results/mmu_rag_results.jsonl, results/mmu_rag_summary.csv
 ```
 
 ### Option 3: Run in Google Colab (Cloud)
 
 ```python
-# Upload notebooks/FinalcodeAIT626project.ipynb to Colab
+# Upload notebooks/multihop_rag.ipynb to Colab
 # Upload data/t2t_test_participants.jsonl
 # Update DATA_PATH in notebook
 # Runtime → Run All
@@ -217,11 +217,11 @@ MMU-RAG-NLP/
 ├── README.md                                ⭐ Main documentation
 ├── .gitignore                               Excludes large files
 ├── src/
-│   ├── finalcodeait626project.py           Python implementation
+│   ├── multihop_rag.py           Python implementation
 │   └── requirements.txt                     Dependencies
 ├── notebooks/
 │   ├── BaselineCode.ipynb                  Single-hop baseline RAG
-│   └── FinalcodeAIT626project.ipynb        Improved multi-hop system
+│   └── multihop_rag.ipynb        Improved multi-hop system
 ├── data/
 │   ├── README.md                           Data documentation
 │   ├── t2t_test_participants.jsonl         Input: 299 queries
