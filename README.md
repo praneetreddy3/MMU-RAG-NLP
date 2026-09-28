@@ -145,7 +145,7 @@ git clone https://github.com/praneetreddy3/MMU-RAG-NLP.git
 cd MMU-RAG-NLP
 
 # Install Python dependencies
-pip install -r src/requirements.txt
+pip install -r requirements.txt
 ```
 
 **Key Dependencies:**
